@@ -52,4 +52,5 @@ Write-Host "   View logs:    docker compose logs -f" -ForegroundColor Gray
 Write-Host "   Stop Squan:   docker compose down" -ForegroundColor Gray
 Write-Host "   Restart:      docker compose restart" -ForegroundColor Gray
 
-Read-Host "`nPress Enter to exit"
+Write-Host "`nPress Enter to exit" -NoNewline
+Read-Host
